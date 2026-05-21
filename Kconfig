@@ -1,0 +1,9 @@
+config SENSOR_XYZ
+    bool "Fake XYZ accelerometer"
+    depends on SENSOR
+    default y
+
+config SENSOR_XYZ_RATE_HZ
+    int "Sampling rate"
+    default 100
+    range 1 1600

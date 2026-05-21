@@ -1,0 +1,12 @@
+description: Fake XYZ accelerometer
+
+compatible: "sensor,xyz"
+
+properties:
+  label:
+    type: string
+    required: true
+
+  odr-hz:
+    type: int
+    default: 100
